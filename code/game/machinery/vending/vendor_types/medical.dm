@@ -552,13 +552,16 @@
 		list("Surgical Line", floor(scale * 2), /obj/item/tool/surgery/surgical_line, VENDOR_ITEM_REGULAR),
 		list("Synth-Graft", floor(scale * 2), /obj/item/tool/surgery/synthgraft, VENDOR_ITEM_REGULAR),
 		list("Hypospray", floor(scale * 3), /obj/item/reagent_container/hypospray/tricordrazine, VENDOR_ITEM_REGULAR),
+		list("Syringe", floor(scale * 7), /obj/item/reagent_container/syringe, VENDOR_ITEM_REGULAR),
 		list("Health Analyzer", floor(scale * 5), /obj/item/device/healthanalyzer, VENDOR_ITEM_REGULAR),
 		list("M276 Pattern Medical Storage Rig", floor(scale * 2), /obj/item/storage/belt/medical, VENDOR_ITEM_REGULAR),
 		list("M276 Lifesaver Bag", floor(scale * 2), /obj/item/storage/belt/medical/lifesaver, VENDOR_ITEM_REGULAR),
 		list("Medical HUD Glasses", floor(scale * 3), /obj/item/clothing/glasses/hud/health, VENDOR_ITEM_REGULAR),
 		list("Prescription Medical HUD Glasses", floor(scale * 1), /obj/item/clothing/glasses/hud/health/prescription, VENDOR_ITEM_REGULAR),
 		list("Stasis Bag", floor(scale * 3), /obj/item/bodybag/cryobag, VENDOR_ITEM_REGULAR),
-		list("Syringe", floor(scale * 7), /obj/item/reagent_container/syringe, VENDOR_ITEM_REGULAR)
+		list("Latex Gloves", floor(scale * 5), /obj/item/clothing/gloves/latex, VENDOR_ITEM_REGULAR),
+		list("Stethoscope", floor(scale * 1), /obj/item/clothing/accessory/stethoscope, VENDOR_ITEM_REGULAR),
+		list("Medical Penlight", floor(scale * 1), /obj/item/device/flashlight/pen, VENDOR_ITEM_REGULAR)
 	)
 
 /obj/structure/machinery/cm_vending/sorted/medical/populate_product_list_and_boxes(scale)
